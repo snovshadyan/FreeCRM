@@ -1,0 +1,23 @@
+2019-07-18 17:28:26.900 [main] INFO  Base.TestBase - Starting LimeLight test Thu Jul 18 17:28:26 EDT 2019
+
+2019-07-18 17:28:30.588 [main] INFO  Base.TestBase - Launching Chrome browser
+
+2019-07-18 17:28:34.894 [main] INFO  TestCases.LoginPageTest - Testing FB_IconTest
+2019-07-18 17:28:35.199 [main] INFO  TestCases.LoginPageTest - Test: FB_IconTest == Passed
+2019-07-18 17:28:35.206 [main] INFO  TestCases.LoginPageTest - Testing Twitter_IconTest
+2019-07-18 17:28:35.417 [main] INFO  TestCases.LoginPageTest - Test: Twitter_IconTest == Passed
+2019-07-18 17:28:35.420 [main] INFO  TestCases.LoginPageTest - Testing ES_IconTest
+2019-07-18 17:28:35.603 [main] INFO  TestCases.LoginPageTest - Test: ES_IconTest == Passed
+2019-07-18 17:28:35.605 [main] INFO  TestCases.LoginPageTest - Testing PT_IconTest
+2019-07-18 17:28:35.797 [main] INFO  TestCases.LoginPageTest - Test: PT_IconTest == Passed
+2019-07-18 17:28:35.799 [main] INFO  TestCases.LoginPageTest - Testing FR_IconTest
+2019-07-18 17:28:35.972 [main] INFO  TestCases.LoginPageTest - Test: FR_IconTest == Passed
+2019-07-18 17:28:35.974 [main] INFO  TestCases.LoginPageTest - Testing RU_IconTest
+2019-07-18 17:28:36.151 [main] INFO  TestCases.LoginPageTest - Test: RU_IconTest == Passed
+2019-07-18 17:28:36.153 [main] INFO  TestCases.LoginPageTest - Testing IT_IconTest
+2019-07-18 17:28:36.353 [main] INFO  TestCases.LoginPageTest - Test: IT_IconTest == Passed
+2019-07-18 17:28:36.356 [main] INFO  TestCases.LoginPageTest - Testing JP_IconTest
+2019-07-18 17:28:36.542 [main] INFO  TestCases.LoginPageTest - Test: JP_IconTest == Passed
+2019-07-18 17:28:37.210 [main] INFO  Base.TestBase - Finishing LimeLight test Thu Jul 18 17:28:37 EDT 2019
+
+2019-07-18 17:28:37.211 [main] INFO  Base.TestBase - Test execution took 10 Seconds
