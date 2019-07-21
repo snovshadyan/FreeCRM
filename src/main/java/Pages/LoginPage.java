@@ -2,8 +2,8 @@ package Pages;
 
 import Base.TestBase;
 import Utilities.Utils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -35,11 +35,44 @@ public class LoginPage extends TestBase {
 @FindBy(xpath="//a[@title='Japan Free CRM']")
     WebElement JP_icon;
 
+@FindBy(xpath="//a[text()='Sign Up']")
+    WebElement SignUP;
 
+@FindBy(xpath="//a[text()='About']")
+    WebElement About;
 
+@FindBy(xpath="//a[text()='CRM']")
+    WebElement CRM;
 
+@FindBy(xpath="//a[text()='Compare']")
+    WebElement Compare;
 
+@FindBy(xpath="//a[text()='Pricing']")
+    WebElement Pricing;
 
+@FindBy(xpath="//img[@title='free crm app for itunes']")
+    WebElement iTunes;
+
+@FindBy(xpath="//img[@title='app for freecrm android']")
+    WebElement Android;
+
+@FindBy(xpath="//span[text()='Log In']")
+WebElement LogIn_Btn;
+
+@FindBy(xpath="//a[@href='https://register.freecrm.com/register/']")
+WebElement SignUP_Btn;
+
+@FindBy(xpath="//div[text()='Login']")
+WebElement Login_Btn;
+
+@FindBy(xpath="//input[@name='email']")
+WebElement Email;
+
+@FindBy(xpath="//input[@name='password']")
+WebElement Password;
+
+@FindBy(xpath="//span[text()='Home']")
+WebElement Home;
 
 
     public LoginPage(){
@@ -100,17 +133,75 @@ public class LoginPage extends TestBase {
 
 
 
+    public boolean verify_SignUP_Tab() throws Exception{
+        Utils.HEY(SignUP);
+        return SignUP.isDisplayed();
+    }
 
 
 
+    public boolean verify_About_Tab() throws Exception{
+        Utils.HEY(About);
+        return About.isDisplayed();
+    }
 
 
 
+    public boolean verify_CRM_Tab() throws Exception{
+        Utils.HEY(CRM);
+        return CRM.isDisplayed();
+    }
 
 
 
+    public boolean verify_Compare_Tab() throws Exception{
+        Utils.HEY(Compare);
+        return Compare.isDisplayed();
+    }
 
 
 
+    public boolean verify_Pricing_Tab() throws Exception{
+        Utils.HEY(Pricing);
+        return Pricing.isDisplayed();
+    }
+
+
+    public boolean verify_iTunes_icon() throws Exception{
+        Utils.HEY(iTunes);
+        return iTunes.isDisplayed();
+    }
+
+
+    public boolean verify_Android_icon() throws Exception{
+        Utils.HEY(Android);
+        return Android.isDisplayed();
+    }
+
+    public boolean verify_LogIn_Btn() throws Exception{
+        Utils.HEY(LogIn_Btn);
+        return LogIn_Btn.isDisplayed();
+    }
+
+    public boolean verify_SignUP_Btn() throws Exception{
+        Utils.HEY(SignUP_Btn);
+        return SignUP_Btn.isDisplayed();
+    }
+
+
+    public boolean verify_Login() throws Exception{
+
+        Utils.HEY(LogIn_Btn);
+        LogIn_Btn.click();
+        Utils.WFEV(By.xpath("//div[text()='Login']"));
+        Email.sendKeys(prop.getProperty("Email"));
+        Password.sendKeys(prop.getProperty("Password"));
+        Login_Btn.click();
+        Utils.WFEV(By.xpath("//span[text()='Home']"));
+        return Home.isDisplayed();
+
+
+
+    }
 
 }
