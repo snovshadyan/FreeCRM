@@ -48,68 +48,68 @@ public class HomePage extends TestBase {
 
 
     public boolean verify_Home_Tab() throws Exception{
-        //Utils.HEY(Home);
+        Utils.HEY(Home);
         return Home.isDisplayed();
     }
 
 
     public boolean verify_Calendar_Tab() throws Exception{
-        //Utils.HEY(Calendar);
+        Utils.HEY(Calendar);
         return Calendar.isDisplayed();
     }
 
 
     public boolean verify_Contacts_Tab() throws Exception{
-        //Utils.HEY(Contacts);
+        Utils.HEY(Contacts);
         return Contacts.isDisplayed();
     }
 
 
 
     public boolean verify_Companies_Tab() throws Exception{
-        //Utils.HEY(Companies);
+        Utils.HEY(Companies);
         return Companies.isDisplayed();
     }
 
 
     public boolean verify_Deals_Tab() throws Exception{
-        //Utils.HEY(Deals);
+        Utils.HEY(Deals);
         return Deals.isDisplayed();
     }
 
 
     public boolean verify_Tasks_Tab() throws Exception{
-        //Utils.HEY(Tasks);
+        Utils.HEY(Tasks);
         return Tasks.isDisplayed();
     }
 
 
     public boolean verify_Cases_Tab() throws Exception{
-        //Utils.HEY(Cases);
+        Utils.HEY(Cases);
         return Cases.isDisplayed();
     }
 
 
     public boolean verify_Calls_Tab() throws Exception{
-        //Utils.HEY(Calls);
+        Utils.HEY(Calls);
         return Calls.isDisplayed();
     }
 
 
     public boolean verify_Documents_Tab() throws Exception{
-        //Utils.HEY(Documents);
+        Utils.HEY(Documents);
         return Documents.isDisplayed();
     }
 
 
     public boolean verify_Email_Tab() throws Exception{
-        //Utils.HEY(Email);
+        Utils.HEY(Email);
         return Email.isDisplayed();
     }
 
 
     public boolean verify_Campaigns_Tab() throws Exception{
-        //Utils.HEY(Campaigns);
+        Utils.HEY(Campaigns);
         return Campaigns.isDisplayed();
     }
 
