@@ -22,7 +22,7 @@ public class TestBase {
     public static WebDriver driver = null;
     private static String baseURL = "https://freecrm.com/";
 
-    private static String ChromeDriverPath = ".\\WebDrivers\\chromedriver75.exe";
+    private static String ChromeDriverPath = ".\\WebDrivers\\chromedriver.exe";
     private static String FFDriverPath = ".\\WebDrivers\\geckodriver24.exe";
 
     private static String Browser;
@@ -56,7 +56,6 @@ public class TestBase {
         if(browserType.equalsIgnoreCase("Chrome")) {
             Browser = "Chrome";
             initChromeDriver();
-
         }else if (browserType.equalsIgnoreCase("Firefox")){
             Browser = "Firefox";
             initFirefoxDriver();

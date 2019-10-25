@@ -81,117 +81,117 @@ WebElement Home;
 
 
     public boolean verifyFB_Icon() throws Exception{
-        Utils.HEY(FB_icon);
+        //Utils.HEY(FB_icon);
         return FB_icon.isDisplayed();
     }
 
 
     public boolean verifyTwitter_Icon() throws Exception{
-        Utils.HEY(Twitter_icon);
+        //Utils.HEY(Twitter_icon);
         return Twitter_icon.isDisplayed();
     }
 
 
     public boolean verifyES_Icon() throws Exception{
-        Utils.HEY(ES_icon);
+        //Utils.HEY(ES_icon);
         return ES_icon.isDisplayed();
     }
 
 
     public boolean verifyPT_Icon() throws Exception{
-        Utils.HEY(PT_icon);
+        //Utils.HEY(PT_icon);
         return PT_icon.isDisplayed();
     }
 
 
 
     public boolean verifyFR_Icon() throws Exception{
-        Utils.HEY(FR_icon);
+        //Utils.HEY(FR_icon);
         return FR_icon.isDisplayed();
     }
 
 
 
     public boolean verifyRU_Icon() throws Exception{
-        Utils.HEY(RU_icon);
+        //Utils.HEY(RU_icon);
         return RU_icon.isDisplayed();
     }
 
 
 
     public boolean verifyIT_Icon() throws Exception{
-        Utils.HEY(IT_icon);
+        //Utils.HEY(IT_icon);
         return IT_icon.isDisplayed();
     }
 
 
 
     public boolean verifyJP_Icon() throws Exception{
-        Utils.HEY(JP_icon);
+        //Utils.HEY(JP_icon);
         return JP_icon.isDisplayed();
     }
 
 
 
     public boolean verify_SignUP_Tab() throws Exception{
-        Utils.HEY(SignUP);
+        //Utils.HEY(SignUP);
         return SignUP.isDisplayed();
     }
 
 
 
     public boolean verify_About_Tab() throws Exception{
-        Utils.HEY(About);
+        //Utils.HEY(About);
         return About.isDisplayed();
     }
 
 
 
     public boolean verify_CRM_Tab() throws Exception{
-        Utils.HEY(CRM);
+        //Utils.HEY(CRM);
         return CRM.isDisplayed();
     }
 
 
 
     public boolean verify_Compare_Tab() throws Exception{
-        Utils.HEY(Compare);
+        //Utils.HEY(Compare);
         return Compare.isDisplayed();
     }
 
 
 
     public boolean verify_Pricing_Tab() throws Exception{
-        Utils.HEY(Pricing);
+        //Utils.HEY(Pricing);
         return Pricing.isDisplayed();
     }
 
 
     public boolean verify_iTunes_icon() throws Exception{
-        Utils.HEY(iTunes);
+        //Utils.HEY(iTunes);
         return iTunes.isDisplayed();
     }
 
 
     public boolean verify_Android_icon() throws Exception{
-        Utils.HEY(Android);
+        //Utils.HEY(Android);
         return Android.isDisplayed();
     }
 
     public boolean verify_LogIn_Btn() throws Exception{
-        Utils.HEY(LogIn_Btn);
+        //Utils.HEY(LogIn_Btn);
         return LogIn_Btn.isDisplayed();
     }
 
     public boolean verify_SignUP_Btn() throws Exception{
-        Utils.HEY(SignUP_Btn);
+        //Utils.HEY(SignUP_Btn);
         return SignUP_Btn.isDisplayed();
     }
 
 
     public boolean verify_Login() throws Exception{
 
-        Utils.HEY(LogIn_Btn);
+        //Utils.HEY(LogIn_Btn);
         LogIn_Btn.click();
         Utils.WFEV(By.xpath("//div[text()='Login']"));
         Email.sendKeys(prop.getProperty("Email"));
